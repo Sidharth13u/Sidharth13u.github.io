@@ -1,0 +1,56 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f7fb;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Section container */
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  
+  /* Each content card */
+  .about-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .about-card h2 {
+    color: #003366;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  
+  .about-card p {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
